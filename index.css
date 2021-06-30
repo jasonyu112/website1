@@ -1,13 +1,25 @@
-p {
-    color: red;
-    font-family: 'Open Sans', sans-serif;
-}
 
 .top-bar{
-    background: blue;
-    height: 46px;
+    background: rgb(0, 0, 255);
+    height: 66px;
     width: 100%;
     position: absolute;
     top: 0px;
     left: 0px;
+}
+
+.top-bar-container{
+    max-width: 50%;
+    height: 66px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.top-bar-item{
+    color: rgb(100, 216, 237);
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: sans-serif;
 }
