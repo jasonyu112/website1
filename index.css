@@ -1,3 +1,13 @@
 p {
     color: red;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-bar{
+    background: blue;
+    height: 46px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
