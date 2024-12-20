@@ -70,13 +70,14 @@
   				transition-duration: 0.4s;
                 cursor: pointer;
                 min-height: 185px;
+                border-radius: 10px;
             }
 
 			main a{
             	color:inherit;
             	text-decoration: none;
             }
-            main .project_card:hover{transform: translateY(-7px);background:#eeeeee; border: 1px solid #999;box-shadow: 10px 10px 25px #999;}
+            main .project_card:hover{transform: translateY(-7px);background:#eeeeee; border: 1px solid #e3e3e3d6;box-shadow: 10px 10px 25px #999;}
             main .project_card h2 {
                 margin: 0;
                 font-size: 20px;
@@ -120,7 +121,10 @@
                     <h2>Machine Learning/AI Projects</h2>
                 </div>
                 <div class="project_container">
-                    
+                    <div class = "project_card" onclick="window.location='https://github.com/jasonyu112/WeightLossWonders';";>
+                        <h2>To Be Listed</h2>
+                        <p>Description</p>
+                    </div>
                 </div>
                 <div class = "container">
                     <h2>Systems/Software Projects</h2>
@@ -141,6 +145,15 @@
                     <div class = "project_card" onclick="window.location='https://github.com/jasonyu112/Parallel-Barnes-Hut';";>
                         <h2> Parallel Barnes Hut</h2>
                         <p>Parallelizes the Barnes Hut algorithm using Message Passing Interface(MPI)</p>
+                    </div>
+                </div>
+                <div class = "container">
+                    <h2>Papers</h2>
+                    <div class="project_container">
+                        <div class = "project_card" onclick="window.location.href='dataset_cartography_paper.html'">
+                            <h2>Dataset Cartography</h2>
+                            <p>Repoducing results of the Dataset Cartography paper on Electra-small model.</p>
+                        </div>
                     </div>
                 </div>
                 <div class = "container">
@@ -172,9 +185,7 @@
                         <p>Keypad is connected to tm4c microcontroller and displays number/letter on laptop when pressed using UART.</p>
                     </div>
                 </div>
-                <div class = "container">
-                    <h2>Papers</h2>
-                </div>
+
             </main>
             <footer>
                 <p>jasonyu112@gmail.com</p>
