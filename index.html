@@ -44,8 +44,6 @@
                 margin-left: 20px;
             }
             main {
-                display: flex;
-                flex-wrap: wrap;
                 justify-content: space-around;
                 padding: 20px;
             }
@@ -71,7 +69,7 @@
                 -webkit-transition-duration: 0.4s; 
   				transition-duration: 0.4s;
                 cursor: pointer;
-                
+                min-height: 185px;
             }
 
 			main a{
@@ -118,13 +116,36 @@
                     <p style="text-align: justify;">Hi, I'm Jason Yu, a computer science student at UT Austin. I specialized in software and systems for my bachelor's degree and will have a focus in AI/Machine Learning in my master's degree. I have a couple projects listed below.
                     </p>
                 </div>
-                <div class="project_container">
+                <div class = "container">
                     <h2>Machine Learning/AI Projects</h2>
                 </div>
                 <div class="project_container">
+                    
+                </div>
+                <div class = "container">
                     <h2>Systems/Software Projects</h2>
                 </div>
-                <h2>Miscellaneous Projects</h2>
+                <div class="project_container">
+                    <div class = "project_card" onclick="window.location='https://github.com/jasonyu112/Cuda-Kmeans';";>
+                        <h2>Parallel Kmeans</h2>
+                        <p>Parallel implementation of Kmeans Algorithm using CUDA C</p>
+                    </div>
+                    <div class = "project_card" onclick="window.location='https://github.com/jasonyu112/Go-Parallel-Binary-Search-Tree-Comparison';";>
+                        <h2>Parallel BST Comparison</h2>
+                        <p>Parallel implementation of Binary Search Tree comparison operations using Go's gouroutines</p>
+                    </div>
+                    <div class = "project_card" onclick="window.location='https://github.com/jasonyu112/Rust-2-Phase-Commit-Implementation';";>
+                        <h2>Rust 2PC</h2>
+                        <p>Implements the 2-phase commit protocol using Rust and bi-directional IPC channels.</p>
+                    </div>
+                    <div class = "project_card" onclick="window.location='https://github.com/jasonyu112/Parallel-Barnes-Hut';";>
+                        <h2> Parallel Barnes Hut</h2>
+                        <p>Parallelizes the Barnes Hut algorithm using Message Passing Interface(MPI)</p>
+                    </div>
+                </div>
+                <div class = "container">
+                    <h2>Miscellaneous Projects</h2>
+                </div>
                 <div class="project_container">
                     <div class = "project_card" onclick="window.location='https://github.com/jasonyu112/BitcoinTrader';";>
                         <h2>Bitcoin Trading Project</h2>
@@ -151,7 +172,9 @@
                         <p>Keypad is connected to tm4c microcontroller and displays number/letter on laptop when pressed using UART.</p>
                     </div>
                 </div>
-                
+                <div class = "container">
+                    <h2>Papers</h2>
+                </div>
             </main>
             <footer>
                 <p>jasonyu112@gmail.com</p>
